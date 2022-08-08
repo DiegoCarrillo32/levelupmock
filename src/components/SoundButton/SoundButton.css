@@ -1,0 +1,26 @@
+.square {
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(180deg, #F5F5F5 67.19%, #E0E0E0 100%);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none
+}
+.square:hover{
+    cursor: pointer;
+}
+
+.title-sound {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #252525;
+}
+

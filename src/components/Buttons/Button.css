@@ -1,0 +1,30 @@
+.button {
+    
+    
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 101px;
+    
+    
+    background: linear-gradient(180deg, #F5F5F5 67.19%, #E0E0E0 100%);
+    box-shadow: inset 1.96867px 2.953px 4.92167px rgba(0, 0, 0, 0.25);
+    border-radius: 9.84334px;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    
+}
+
+.title {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.765px;
+    line-height: 17px;
+    text-align: center;
+
+    color: black;
+}

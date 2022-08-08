@@ -1,0 +1,14 @@
+.volume-container {
+    width: 169.91px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.icon {
+    width: 33.91px;
+    align-self: center;
+height: 29.7px;
+}

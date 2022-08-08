@@ -1,0 +1,11 @@
+.button-container {
+    
+    width: 377px;
+    height: 47.25px;
+    left: 92px;
+    top: 418.38px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}

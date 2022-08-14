@@ -1,6 +1,6 @@
 .volume-container {
     width: 169.91px;
-    height: 53px;
+    height: 43px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -11,4 +11,15 @@
     width: 33.91px;
     align-self: center;
 height: 29.7px;
+}
+
+.buttons-container {
+
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    overflow: hidden;
+    
 }

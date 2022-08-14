@@ -3,13 +3,26 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
+  background-color: #F9F8F8;
 }
 
 
 .info-container {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  justify-content: space-between;
+  width: 1000px;
 }
+
+@media screen and (max-width: 800px) {
+  .info-container {
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+  

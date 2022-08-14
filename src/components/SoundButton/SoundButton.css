@@ -1,9 +1,9 @@
 .square {
     height: 100%;
     width: 50px;
-    background: linear-gradient(180deg, #F5F5F5 67.19%, #E0E0E0 100%);
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    background: #FFFFFF;
+box-shadow: 0px 2.37874px 2.37874px rgba(0, 0, 0, 0.25);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,9 @@
 }
 .square:hover{
     cursor: pointer;
+}
+.square:active{
+    background: #20CE6E;
 }
 
 .title-sound {

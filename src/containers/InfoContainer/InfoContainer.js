@@ -10,15 +10,18 @@ export const InfoContainer = ({ CHANNEL, STATUS, VOLUME }) => {
         <div className='container'>
             <p className='channel'>{CHANNEL}</p>
             <p className='status' style={{ color: (STATUS) ? '#20CE6E' : '#D9B03D' }}>{(STATUS) ? 'ACTIVE STATUS' : 'STANDBY STATUS'}</p>
-            <img alt='icon' src={RADIO_PICTURE} />
-            <ButtonContainer />
+            <img alt='icon' src={RADIO_PICTURE} className="icon-svg" />
+
             {
                 (VOLUME) ?
                     (
-                        <section className='sound-section'>
-                            <VolumeContainer icon={VOL_PIC} />
-                            <VolumeContainer icon={MIC_PIC} />
-                        </section>
+                        <div className='sound-rectangle'>
+                            <ButtonContainer />
+                            <section className='sound-section'>
+                                <VolumeContainer icon={VOL_PIC} />
+                                <VolumeContainer icon={MIC_PIC} />
+                            </section>
+                        </div>
                     )
                     : null
             }

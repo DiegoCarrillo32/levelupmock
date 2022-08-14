@@ -9,7 +9,7 @@ function App() {
       <AlertContainer />
       <section className='info-container'>
         <InfoContainer CHANNEL={'CH11'} STATUS VOLUME />
-        <InfoContainer CHANNEL={'CH12'} />
+        <InfoContainer CHANNEL={'CH12'} VOLUME />
       </section>
     </div>
   );

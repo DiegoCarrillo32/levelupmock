@@ -5,9 +5,12 @@ export const VolumeContainer = ({ icon }) => {
     return (
 
         <div className='volume-container'>
-            <SoundButton title={'-'} />
-            <SoundButton title={"+"} />
             <img alt='icon' src={icon} className="icon" />
+            <div className='buttons-container'>
+                <SoundButton title={'-'} />
+                <SoundButton title={"+"} />
+            </div>
+
         </div>
     )
 }

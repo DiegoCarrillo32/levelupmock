@@ -1,8 +1,23 @@
 .alert-list {
     
     display: flex;
-    width: 906px;
+    width: 1000px;
     height: 130.2px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
+
+.alert-rectangle {
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+@media screen and (max-width: 800px) {
+    .alert-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    

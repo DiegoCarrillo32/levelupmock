@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/levelupmock/static/css/main.30ee053b.css",
+    "main.js": "/levelupmock/static/js/main.5a24a8d2.js",
+    "static/media/ANTENA_PIC.svg": "/levelupmock/static/media/ANTENA_PIC.9c47df7204238a5227713b1c72fb05ba.svg",
+    "static/media/RADIO_PIC.svg": "/levelupmock/static/media/RADIO_PIC.774f5e9077767e6141de6d3b021a5689.svg",
+    "static/media/VOL_PIC.svg": "/levelupmock/static/media/VOL_PIC.614c28f98dda2b599e188ffbb37173be.svg",
+    "static/media/TEMOMETRO_PIC.svg": "/levelupmock/static/media/TEMOMETRO_PIC.a6f8191107c3dd24c262cfd71ae58ff5.svg",
+    "static/media/BATERIA_PIC.svg": "/levelupmock/static/media/BATERIA_PIC.8e62b5544ac03c41a4d1654dc442cb39.svg",
+    "static/media/MIC_PIC.svg": "/levelupmock/static/media/MIC_PIC.04a32002b280b33f6553fc34c02b0435.svg",
+    "static/media/AC_POWER_PIC.svg": "/levelupmock/static/media/AC_POWER_PIC.41be89cdc8c214732de10578cd85e7a9.svg",
+    "index.html": "/levelupmock/index.html",
+    "static/media/DOOR_PIC.svg": "/levelupmock/static/media/DOOR_PIC.65f280d6ad8a96014a7ec4eaf250b20d.svg",
+    "main.30ee053b.css.map": "/levelupmock/static/css/main.30ee053b.css.map",
+    "main.5a24a8d2.js.map": "/levelupmock/static/js/main.5a24a8d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ee053b.css",
+    "static/js/main.5a24a8d2.js"
+  ]
+}

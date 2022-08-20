@@ -1,4 +1,4 @@
-#What do i need to run the project
+# What do i need to run the project
 
 You have to install Node or a node version manager 
 

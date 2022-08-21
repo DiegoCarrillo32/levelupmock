@@ -55,7 +55,7 @@ export const InfoContainer = ({ CHANNEL, STATUS, VOLUME }) => {
                             </div>
                         </div>
                         <div className='test'>
-                            <img src={VOL_PIC} alt="Vol" className='icon' />
+                            <img src={MIC_PIC} alt="Mic" className='icon' />
                             <div className='volume-bar'>
                                 <div className='volume-bar-inner' style={{ width: `${VolumeAudio}%` }}></div>
                             </div>

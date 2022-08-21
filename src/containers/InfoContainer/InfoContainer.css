@@ -51,27 +51,90 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 100;
 
 
     background: rgba(231, 231, 231, 0.6);
     border-radius: 10px;
 }
+.volume-bar {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* align-self: center; */
+    
+}
+.volume-bar-inner {
+    
+    height: 100%;
+    background-color: #20CE6E;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.volume-config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.test{
+    display: flex;
+    width: 169px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mode-config {
+    
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #20CE6E;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    
+}
+
+.data-config {
+    display: flex;
+    position: absolute;
+    top: 145px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #20CE6E;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    
+}
 
 
 @media screen and (max-width: 800px) {
+    
     .sound-section {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
     .container {
+        
         width: 358px;
         height: 317px;
+        
     }
     .sound-rectangle {
         width: 358.09px;
         height: 138px;
+        z-index: 200;
     }
     .icon-svg {
         width: 99px;

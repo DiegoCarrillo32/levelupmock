@@ -16,19 +16,19 @@ export const AlertContainer = () => {
         },
         BATERIA: {
             SVG: BATERIA,
-            TEXT: 'BATERIA'
+            TEXT: 'BATTERY STATUS'
         },
         ANTENA: {
             SVG: ANTENA_PIC,
-            TEXT: 'ANTENA'
+            TEXT: 'ANTENA SIGNAL'
         },
         DOOR: {
             SVG: DOOR_PIC,
-            TEXT: 'DOOR'
+            TEXT: 'TAMPERING'
         },
         TERMO: {
             SVG: TERMO_PIC,
-            TEXT: 'TERMO'
+            TEXT: 'TEMPERATURE'
         },
         DEFAULT: {
             SVG: AC_POWER,

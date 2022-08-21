@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <AlertContainer />
       <section className='info-container'>
-        <InfoContainer CHANNEL={'CH11'} STATUS VOLUME />
-        <InfoContainer CHANNEL={'CH12'} VOLUME />
+        <InfoContainer CHANNEL={'CH11'} STATUS />
+        <InfoContainer CHANNEL={'CH12'} />
       </section>
     </div>
   );

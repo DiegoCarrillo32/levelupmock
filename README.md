@@ -1,3 +1,21 @@
+# What do i need to run the project
+
+You have to install Node or a node version manager 
+
+https://github.com/nvm-sh/nvm
+https://nodejs.org/es/
+
+After installing node you can clone or download this repository and run
+
+1. npm install: this will install all dependencies that the project requires, after this is done the project is ready to start.
+2. npm start: this will run the react project, you have to be on the root folder of the project.
+3. After that the page should open on localhost:3000.
+
+You can also read https://es.reactjs.org/docs/create-a-new-react-app.html to have more understanding of React.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

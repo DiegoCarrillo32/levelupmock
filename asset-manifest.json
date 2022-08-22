@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/levelupmock/static/css/main.bb624cfb.css",
-    "main.js": "/levelupmock/static/js/main.33853c98.js",
+    "main.css": "/levelupmock/static/css/main.ca50ba28.css",
+    "main.js": "/levelupmock/static/js/main.48a325cc.js",
     "static/media/ANTENA_PIC.svg": "/levelupmock/static/media/ANTENA_PIC.9c47df7204238a5227713b1c72fb05ba.svg",
+    "static/media/BAT_CHARGED_COMPLETE.svg": "/levelupmock/static/media/BAT_CHARGED_COMPLETE.22bf4f9db30387b81a36710d1a5fa06d.svg",
+    "static/media/MUTE.svg": "/levelupmock/static/media/MUTE.6db68b8bc98cdde6c060a5c1c94304c1.svg",
     "static/media/RADIO_PIC.svg": "/levelupmock/static/media/RADIO_PIC.774f5e9077767e6141de6d3b021a5689.svg",
+    "static/media/TEMP_COLD.svg": "/levelupmock/static/media/TEMP_COLD.0af35088c42e7d7b15b067b6b37a1e39.svg",
+    "static/media/HANDSET.svg": "/levelupmock/static/media/HANDSET.2a282b1e3bf804ab47a2dd27656320e5.svg",
+    "static/media/HANDSET_NOCOLOR.svg": "/levelupmock/static/media/HANDSET_NOCOLOR.61d04a2521b6cbef0e3f5757d52ca77f.svg",
     "static/media/VOL_PIC.svg": "/levelupmock/static/media/VOL_PIC.614c28f98dda2b599e188ffbb37173be.svg",
-    "static/media/TEMOMETRO_PIC.svg": "/levelupmock/static/media/TEMOMETRO_PIC.a6f8191107c3dd24c262cfd71ae58ff5.svg",
-    "static/media/BATERIA_PIC.svg": "/levelupmock/static/media/BATERIA_PIC.8e62b5544ac03c41a4d1654dc442cb39.svg",
+    "static/media/UN_MUTE.svg": "/levelupmock/static/media/UN_MUTE.49eab10a1ba00016bb945e041123f729.svg",
     "static/media/MIC_PIC.svg": "/levelupmock/static/media/MIC_PIC.04a32002b280b33f6553fc34c02b0435.svg",
     "static/media/AC_POWER_PIC.svg": "/levelupmock/static/media/AC_POWER_PIC.41be89cdc8c214732de10578cd85e7a9.svg",
+    "static/media/BAD_SIGNAL.svg": "/levelupmock/static/media/BAD_SIGNAL.e17e0e132ed0fbb2d9f780eb3232ddf3.svg",
+    "static/media/GOOD_SIGNAL.svg": "/levelupmock/static/media/GOOD_SIGNAL.74bc16f75419b3063c6c8c872358e570.svg",
     "index.html": "/levelupmock/index.html",
-    "static/media/DOOR_PIC.svg": "/levelupmock/static/media/DOOR_PIC.65f280d6ad8a96014a7ec4eaf250b20d.svg",
-    "main.bb624cfb.css.map": "/levelupmock/static/css/main.bb624cfb.css.map",
-    "main.33853c98.js.map": "/levelupmock/static/js/main.33853c98.js.map"
+    "static/media/AMPLIFICATION.svg": "/levelupmock/static/media/AMPLIFICATION.13a36e788483db0413b7f90c506d809c.svg",
+    "static/media/TAMPERING_CLOSED.svg": "/levelupmock/static/media/TAMPERING_CLOSED.bebb5781f695bea0e8c7079b61a29f6d.svg",
+    "main.ca50ba28.css.map": "/levelupmock/static/css/main.ca50ba28.css.map",
+    "main.48a325cc.js.map": "/levelupmock/static/js/main.48a325cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb624cfb.css",
-    "static/js/main.33853c98.js"
+    "static/css/main.ca50ba28.css",
+    "static/js/main.48a325cc.js"
   ]
 }

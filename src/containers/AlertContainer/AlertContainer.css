@@ -14,9 +14,9 @@
 }
 @media screen and (max-width: 800px) {
     .alert-list {
-        width: 100%;
+        width: 763px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 }

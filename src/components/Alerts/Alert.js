@@ -1,7 +1,7 @@
 import React from 'react'
 import './Alert.css'
 
-export const Alert = ({ SVG, TEXT, setIsOpen }) => {
+export const Alert = ({ SVG, SVG2, TEXT, setIsOpen, MUTE }) => {
     return (
         <div style={{
             display: "flex",
@@ -12,7 +12,7 @@ export const Alert = ({ SVG, TEXT, setIsOpen }) => {
             <div className='circle'>
                 <div className='border'>
                     <div className='circle-inner'>
-                        <img src={SVG} alt='ALERT' />
+                        <img src={(MUTE && SVG != null) ? SVG2 : SVG} alt='ALERT' />
                     </div>
 
 
@@ -20,7 +20,7 @@ export const Alert = ({ SVG, TEXT, setIsOpen }) => {
                 </div>
             </div>
             <div className='text'>
-                {TEXT}
+                {(MUTE) ? "PRESS TO UNMUTE" : TEXT}
             </div>
         </div>
     )

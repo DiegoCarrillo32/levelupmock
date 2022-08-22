@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ButtonContainer } from '../ButtonContainer/ButtonContainer'
 import './InfoContainer.css'
 import RADIO_PICTURE from '../../imgs/RADIO_PIC.svg'
@@ -12,11 +12,55 @@ import BAD_SIGNAL from '../../imgs/BAD_SIGNAL.svg'
 import { VolumeContainer } from '../VolumeContainer/VolumeContainer'
 import { SoundButton } from '../../components/SoundButton/SoundButton'
 export const InfoContainer = ({ CHANNEL, VOLUME, SIGNAL }) => {
+
     const [PTT, setPTT] = useState(true)
     const [Failure, setFailure] = useState(true)
 
     const [VolumeSpeaker, setVolumeSpeaker] = useState(10)
     const [VolumeAudio, setVolumeAudio] = useState(10)
+
+    // TIMER PARA PRESENTACION, CAMBIA EL PRESS TO TALK 
+    const pttTimers = [0, 0, 1, 0, 0, 0, 0, 1]
+    useEffect(() => {
+        const int = setInterval(() => {
+            console.log("paso un segundo", pttTimers);
+            if (pttTimers.length === 0) {
+                clearInterval(int)
+
+            }
+            setPTT(pttTimers.shift())
+        }, 1000)
+        if (pttTimers.length === 0) {
+            clearInterval(int)
+        }
+        return () => {
+            clearInterval(int)
+        }
+
+    }, [])
+
+    const failureTimers = [0, 0, 1, 0, 1, 0, 0, 1, 1, 1]
+    useEffect(() => {
+        const int2 = setInterval(() => {
+            console.log("paso un segundo y medio", failureTimers);
+            if (failureTimers.length === 0) {
+
+                return
+            }
+            setFailure(failureTimers.shift())
+
+
+        }, 1500)
+        if (failureTimers.length === 0) {
+            return
+        }
+        return () => {
+            clearInterval(int2)
+        }
+    }, [])
+
+
+
 
     return (
         <div className='container'>
@@ -52,7 +96,7 @@ export const InfoContainer = ({ CHANNEL, VOLUME, SIGNAL }) => {
                 </div>
             </div>
             <p className='channel'>{CHANNEL}</p>
-            <p className='status' style={{ color: (Failure) ? '#20CE6E' : '#D9B03D' }}>Standby - Normal</p>
+            <p className='status' style={{ color: (Failure) ? '#20CE6E' : '#D9B03D' }}> {(Failure) ? "Standby - Normal" : "Enable - Normal"}   </p>
             <img alt='icon' src={RADIO_PICTURE} className="icon-svg" />
 
             {
